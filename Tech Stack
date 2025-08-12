@@ -3,3 +3,4 @@ Backend: Django
 Database: Postgres
 Cloud: AWS EC2 Instance type
 UI/UX: Figma
+Testing: Swagger, POSTMAN
