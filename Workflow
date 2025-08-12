@@ -1,0 +1,76 @@
+# Workflow Document – AI Student Progress Tracking System for MBCN
+
+## Overview
+
+This document describes the user roles, registration/login flows, dashboard features, workflows, data storage, and AI insights for the AI Student Progress Tracking System built for MBCN.
+
+---
+
+## 1. User Roles & Dashboards
+
+The system consists of three dashboards and user roles with defined capabilities:
+
+* **Admin Dashboard** – Full system control (Create, Read, Update; *no delete* by policy).
+* **Teacher Dashboard** – For educational progress tracking and resource management.
+* **Therapist Dashboard** – For therapy and rehabilitation progress tracking.
+
+---
+
+## 2. User Registration & Login Flow
+
+### 2.1 Admin
+
+* Admin users are created during system setup (no self-registration).
+* Admins log in using an email + secure password.
+* After login, Admin accesses the Admin Dashboard.
+
+### 2.2 Student
+
+Students register using the following required fields:
+
+* Unique Student ID (assigned/provided by MBCN)
+* Preferred password
+* Basic details: full name, age, gender, class/section
+* Parent details: parent names, contact number, address
+
+After registration, students can log in and (if enabled) view their Student Dashboard for self-review.
+
+### 2.3 Teacher
+
+* Teachers register using an institutional email address and preferred password.
+* Teacher accounts require verification by Admin (institution verification step).
+* Login redirects to the Teacher Dashboard.
+
+### 2.4 Therapist
+
+* Therapists register using an institutional email address and preferred password.
+* Therapist accounts require Admin verification.
+* Login redirects to the Therapist Dashboard.
+
+---
+
+## 3. Dashboard Functionalities
+
+### 3.1 Admin Dashboard (CRU)
+
+* Create, Read, Update student, teacher, and therapist profiles.
+* Directly open any student dashboard using the Unique Student ID (impersonation-style read/update access).
+* Assign teachers and therapists to specific students.
+* Manage academic schedules and therapy schedules.
+* View school-wide analytics and dashboards for performance trends and usage metrics.
+
+
+### 3.2 Teacher Dashboard
+
+* View a roster of assigned students.
+* Update academic progress for students (subject-wise grades, attendance, teacher notes).
+* Upload learning resources (documents, PDFs, videos, links).
+* Add comments on behavioral and social development.
+* Generate or view past performance reports.
+
+### 3.3 Therapist Dashboard
+
+* View a roster of assigned students.
+* Update therapy progress across modalities (speech, occupational therapy, physical therapy, behavioral therapy).
+* Add detailed session notes and session metadata (date, therapist, duration).
+* Set therapy goals and track improvement trends over time.
