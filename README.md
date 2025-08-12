@@ -1,4 +1,3 @@
-
 **Project Title:** AI-Powered Student Progress Tracking System for Mata Bhagwanti Chadha Niketan (MBCN)
 
 **Description:**
