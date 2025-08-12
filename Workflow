@@ -1,76 +1,41 @@
-# Workflow Document – AI Student Progress Tracking System for MBCN
+# AI Student Progress Tracking System – Workflow Documentation for Mata Bhagwanti Chadha Niketan (MBCN)
 
-## Overview
+## Description
+This repository contains the **workflow documentation** for the AI Student Progress Tracking System, designed for Mata Bhagwanti Chadha Niketan (MBCN) — a charitable institution dedicated to the education and rehabilitation of differently-abled children.
 
-This document describes the user roles, registration/login flows, dashboard features, workflows, data storage, and AI insights for the AI Student Progress Tracking System built for MBCN.
-
----
-
-## 1. User Roles & Dashboards
-
-The system consists of three dashboards and user roles with defined capabilities:
-
-* **Admin Dashboard** – Full system control (Create, Read, Update; *no delete* by policy).
-* **Teacher Dashboard** – For educational progress tracking and resource management.
-* **Therapist Dashboard** – For therapy and rehabilitation progress tracking.
+The platform enables administrators, Teachers, and Therapists to collaboratively monitor, update, and analyze the academic and therapeutic development of students with special needs. The system supports personalized growth tracking, fosters real-time collaboration between stakeholders, and ensures data-driven decision-making for each child’s educational and rehabilitation journey.
 
 ---
 
-## 2. User Registration & Login Flow
-
-### 2.1 Admin
-
-* Admin users are created during system setup (no self-registration).
-* Admins log in using an email + secure password.
-* After login, Admin accesses the Admin Dashboard.
-
-### 2.2 Student
-
-Students register using the following required fields:
-
-* Unique Student ID (assigned/provided by MBCN)
-* Preferred password
-* Basic details: full name, age, gender, class/section
-* Parent details: parent names, contact number, address
-
-After registration, students can log in and (if enabled) view their Student Dashboard for self-review.
-
-### 2.3 Teacher
-
-* Teachers register using an institutional email address and preferred password.
-* Teacher accounts require verification by Admin (institution verification step).
-* Login redirects to the Teacher Dashboard.
-
-### 2.4 Therapist
-
-* Therapists register using an institutional email address and preferred password.
-* Therapist accounts require Admin verification.
-* Login redirects to the Therapist Dashboard.
+## Key Features
+- **Role-Based Dashboards:** Separate Admin, Teacher, and Therapist interfaces with dedicated permissions and tools.  
+- **Student Registration & Unique IDs:** Secure onboarding via institution-provided IDs, with detailed personal and parent information.  
+- **Multi-Dimensional Progress Tracking:** Academic performance, therapy milestones, behavioral and social development monitoring.  
+- **Direct Access by Admins:** Admins can open any student’s dashboard for real-time updates without login credentials.  
+- **Analytics & AI Insights:** School-wide trends, individual student improvement analytics, and intelligent recommendations for interventions.  
 
 ---
 
-## 3. Dashboard Functionalities
+## Workflow Highlights
 
-### 3.1 Admin Dashboard (CRU)
+### 1. User Roles & Permissions
+- **Admin:** Create, Read, Update (no Delete) for all profiles, assign staff, manage schedules, view analytics.  
+- **Teacher:** Update academic progress, upload resources, add behavioral notes, generate reports.  
+- **Therapist:** Update therapy sessions, track goals, log detailed notes, monitor improvement trends.  
 
-* Create, Read, Update student, teacher, and therapist profiles.
-* Directly open any student dashboard using the Unique Student ID (impersonation-style read/update access).
-* Assign teachers and therapists to specific students.
-* Manage academic schedules and therapy schedules.
-* View school-wide analytics and dashboards for performance trends and usage metrics.
+### 2. Registration & Login
+- **Admin:** Created during setup (no self-registration).  
+- **Student:** Registers with unique ID, password, personal & parent details.  
+- **Teacher/Therapist:** Registers with institutional email; requires Admin verification.  
 
+### 3. Dashboards
+- **Admin Dashboard:** Full CRU control, direct student dashboard access, staff assignment, analytics view.  
+- **Teacher Dashboard:** Assigned student roster, academic updates, resources, behavior notes, reports.  
+- **Therapist Dashboard:** Assigned student roster, therapy updates, goals, trends, and session logs.  
 
-### 3.2 Teacher Dashboard
+---
 
-* View a roster of assigned students.
-* Update academic progress for students (subject-wise grades, attendance, teacher notes).
-* Upload learning resources (documents, PDFs, videos, links).
-* Add comments on behavioral and social development.
-* Generate or view past performance reports.
+## Impact
+This documentation defines a clear workflow and ensures that the AI Student Progress Tracking System is implemented efficiently, securely, and inclusively.  
+The goal is to empower MBCN’s staff to provide **holistic, personalized, and measurable support** for each student’s growth journey.
 
-### 3.3 Therapist Dashboard
-
-* View a roster of assigned students.
-* Update therapy progress across modalities (speech, occupational therapy, physical therapy, behavioral therapy).
-* Add detailed session notes and session metadata (date, therapist, duration).
-* Set therapy goals and track improvement trends over time.
