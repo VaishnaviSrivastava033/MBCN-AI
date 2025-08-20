@@ -1,6 +1,6 @@
 Frontend: Flutter
 Backend: Django
-Database: Postgres
+Database: PostgreSQL
 Cloud: AWS (Ubuntu)
 UI/UX: Figma
 Testing: Swagger, POSTMAN
