@@ -1,6 +1,6 @@
-Frontend: Flutter (Dart language)
+Frontend: Flutter
 Backend: Django
 Database: Postgres
-Cloud: AWS EC2 Instance type
+Cloud: AWS (Ubuntu)
 UI/UX: Figma
 Testing: Swagger, POSTMAN
