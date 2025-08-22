@@ -20,8 +20,8 @@ The platform enables administrators, Teachers, and Therapists to collaboratively
 
 ### 1. User Roles & Permissions
 - **Admin:** Create, Read, Update (no Delete) for all profiles, assign staff, manage schedules, view analytics.  
-- **Teacher:** Update academic progress, upload resources, add behavioral notes, generate reports.  
-- **Therapist:** Update therapy sessions, track goals, log detailed notes, monitor improvement trends.  
+- **Teacher:** Update academic progress, upload resources, add behavioral notes, and generate reports.  
+- **Therapist:** Update therapy sessions, track goals, log detailed notes, and monitor improvement trends.  
 
 ### 2. Registration & Login
 - **Admin:** Created during setup (no self-registration).  
