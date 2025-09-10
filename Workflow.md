@@ -1,41 +1,105 @@
-# AI Student Progress Tracking System – Workflow Documentation for Mata Bhagwanti Chadha Niketan (MBCN)
+# MBCN AI — Workflow
 
-## Description
-This repository contains the **workflow documentation** for the AI Student Progress Tracking System, designed for Mata Bhagwanti Chadha Niketan (MBCN) — a charitable institution dedicated to the education and rehabilitation of differently-abled children.
-
-The platform enables administrators, Teachers, and Therapists to collaboratively monitor, update, and analyze the academic and therapeutic development of students with special needs. The system supports personalized growth tracking, fosters real-time collaboration between stakeholders, and ensures data-driven decision-making for each child’s educational and rehabilitation journey.
+> **Purpose:** MBCN AI is a customized platform for tracking the full student journey (learning, growth, skills, therapy, and home management) for Mata Bhagwanti Chanda Niketan (MBCN) — a school for specially-abled students.
 
 ---
 
-## Key Features
-- **Role-Based Dashboards:** Separate Admin, Teacher, and Therapist interfaces with dedicated permissions and tools.  
-- **Student Registration & Unique IDs:** Secure onboarding via institution-provided IDs, with detailed personal and parent information.  
-- **Multi-Dimensional Progress Tracking:** Academic performance, therapy milestones, behavioral and social development monitoring.  
-- **Direct Access by Admins:** Admins can open any student’s dashboard for real-time updates without login credentials.  
-- **Analytics & AI Insights:** School-wide trends, individual student improvement analytics, and intelligent recommendations for interventions.  
+## 📌 High-Level Workflow
+
+The workflow of MBCN AI revolves around **role-based access**, **student-centered data management**, and **modular progression** across assessments, planning, execution, and reporting.
+
+### 1. Custom User Authentication & Role Assignment
+
+* Custom users register or log in.
+* The system assigns role-based permissions:
+
+  * **Super Admin** → Full CRUD (Create, Read, Update, Delete).
+  * **Admin** → CRU (no delete).
+  * **Teacher** → Manage students, assessments, IEPs, progress reports.
+  * **Therapist** → Manage therapies, update progress, contribute to IEPs.
+  * **Guardian** → Mostly read-only access, guided by home management modules.
 
 ---
 
-## Workflow Highlights
+### 2. Student Registration Workflow
 
-### 1. User Roles & Permissions
-- **Admin:** Create, Read, Update (no Delete) for all profiles, assign staff, manage schedules, view analytics.  
-- **Teacher:** Update academic progress, upload resources, add behavioral notes, and generate reports.  
-- **Therapist:** Update therapy sessions, track goals, log detailed notes, and monitor improvement trends.  
+1. A teacher/admin/therapist creates a new student profile.
+2. Data captured includes personal details (name, age, disability), guardian details, and initial program assignment.
+3. Once registered, the student record becomes the **central hub** for all future data (assessments, IEP, therapy, reports).
 
-### 2. Registration & Login
-- **Admin:** Created during setup (no self-registration).  
-- **Student:** Registers with unique ID, password, personal & parent details.  
-- **Teacher/Therapist:** Registers with institutional email; requires Admin verification.  
-
-### 3. Dashboards
-- **Admin Dashboard:** Full CRU control, direct student dashboard access, staff assignment, analytics view.  
-- **Teacher Dashboard:** Assigned student roster, academic updates, resources, behavior notes, reports.  
-- **Therapist Dashboard:** Assigned student roster, therapy updates, goals, trends, and session logs.  
 
 ---
 
-## Impact
-This documentation defines a clear workflow and ensures that the AI Student Progress Tracking System is implemented efficiently, securely, and inclusively.  
-The goal is to empower MBCN’s staff to provide **holistic, personalized, and measurable support** for each student’s growth journey.
+### 3. Assessment Workflow
+
+1. Teacher or therapist logs in.
+2. Selects a student → adds assessment details (date, type, results, observations).
+3. Data is stored and linked to that student’s profile.
+4. Assessments can later inform IEP goal creation.
+
+
+---
+
+### 4. IEP (Individualized Educational Plan) Workflow
+
+1. Teacher/Therapist reviews assessment results.
+2. Creates IEP goals by selecting from predefined domains (e.g., Gross Motor, Communication, Reading Skills).
+3. Each goal includes:
+
+   * Target skill/behavior
+   * Evaluation criteria
+   * Timeline
+   * Percentage/marks for progress
+4. Goals are continuously updated as progress is made.
+
+
+---
+
+### 5. Program Workflow
+
+1. Admin/Teacher assigns the student to a program type (e.g., Academic, Autism, VTC) and level (e.g., Pre-Academic, Functional Academic).
+2. Programs define the **context** in which IEPs and therapies operate.
+3. Students may transition between programs as they grow.
+
+
+
+---
+
+### 6. Progress Report Workflow
+
+1. Teacher/Admin generates periodic reports.
+2. Report aggregates:
+
+   * Assessments
+   * IEP goal progress
+   * Attendance
+   * Teacher feedback
+3. Reports are shared with guardians and stored in the student’s record.
+
+
+
+---
+
+### 7. Therapy Workflow
+
+1. Therapist logs in → chooses a student → creates a therapy session.
+2. Selects **Department** (Speech, Occupational, Physiotherapy).
+3. Records activities performed, outcomes, and observations.
+4. Sessions are mapped to relevant IEP domains.
+
+
+
+---
+
+### 8. Home Management Workflow
+
+1. Teacher/Therapist provides practical home guidance.
+2. Guardians receive personalized recommendations (e.g., daily exercises, behavioral tips).
+3. Guardians can access this anytime via their limited-access accounts.
+
+
+
+---
+
+*This workflow documentation focuses on the practical sequence of interactions between users and modules, making the system’s functionality clear for both developers and stakeholders.*
 
