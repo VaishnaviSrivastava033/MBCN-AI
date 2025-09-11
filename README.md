@@ -5,7 +5,7 @@
 
 
 **Description:**
-This project is an **AI-driven platform** designed to monitor, analyze, and enhance the academic and developmental progress of students at Mata Bhagwanti Chadha Niketan (MBCN) — a charitable institution dedicated to the education and rehabilitation of differently-abled children.
+This project is designed to monitor, analyze, and enhance the academic and developmental progress of students at Mata Bhagwanti Chadha Niketan (MBCN) — a charitable institution dedicated to the education and rehabilitation of differently-abled children.
 
 MBCN provides free, specialized education and rehabilitation services to over 500 children with intellectual impairments, cerebral palsy, autism spectrum disorder, hearing impairment, and multiple disabilities. The AI system aims to assist teachers, therapists, and parents in **tracking each child’s growth** across multiple dimensions — academic learning, motor skills, speech and language development, social interaction, and overall independence.
 
