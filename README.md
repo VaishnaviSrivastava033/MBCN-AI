@@ -17,9 +17,8 @@ MBCN provides free, specialized education and rehabilitation services to over 50
 * **Parent & Teacher Dashboard:** Easy-to-use interface for real-time updates and progress charts, fostering collaboration between parents, teachers, and therapists.
 * **Data-Driven Decision Making:** AI analytics to help educators optimize resources and focus on each student’s unique needs.
 
-  ![WhatsApp Image 2025-08-14 at 17 39 20_352e3886](https://github.com/user-attachments/assets/7bd93c18-7eeb-4991-87f8-4d38180486f7)
-  ![WhatsApp Image 2025-08-14 at 17 38 56_6f1bb2df](https://github.com/user-attachments/assets/d633ec67-1287-4c6b-927a-9cb87becbe60)
-
+  ![WhatsApp Image 2025-09-11 at 11 54 13_4d65af1e](https://github.com/user-attachments/assets/5e39d1e2-cc18-4e7a-ab6b-92e63e897ad2)
+  
 
 
 **Impact:**
